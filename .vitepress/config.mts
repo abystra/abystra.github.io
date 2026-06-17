@@ -21,6 +21,19 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: '后端开发',
+        collapsed: false,
+        items: [
+          { text: 'Java 开发', link: '/java/' },
+          { text: 'Python 开发', link: '/python/' },
+        ],
+      },
+      {
+        text: '前端开发',
+        collapsed: false,
+        items: [{ text: '概述', link: '/frontend/' }],
+      },
+      {
         text: 'DevOps',
         collapsed: false,
         items: [{ text: '概述', link: '/devops/' }],
@@ -31,29 +44,12 @@ export default defineConfig({
         items: [{ text: '概述', link: '/agent/' }],
       },
       {
-        text: 'Java 开发',
+        text: '随手记',
         collapsed: false,
-        items: [{ text: '概述', link: '/java/' }],
-      },
-      {
-        text: 'Python 开发',
-        collapsed: false,
-        items: [{ text: '概述', link: '/python/' }],
-      },
-      {
-        text: '前端开发',
-        collapsed: false,
-        items: [{ text: '概述', link: '/frontend/' }],
-      },
-      {
-        text: '问题记录',
-        collapsed: false,
-        items: [{ text: '概述', link: '/troubleshooting/' }],
-      },
-      {
-        text: '指令备忘',
-        collapsed: false,
-        items: [{ text: '概述', link: '/cheatsheets/' }],
+        items: [
+          { text: '问题记录', link: '/troubleshooting/' },
+          { text: '指令备忘', link: '/cheatsheets/' },
+        ],
       },
     ],
 

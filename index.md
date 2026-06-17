@@ -17,13 +17,15 @@ date: 2026-06-17
 
 目前打算围绕几个方向来写：
 
-- **[DevOps](/devops/)** — CI/CD、Linux、Docker & K8s、监控告警、云服务配置
-- **[Agent 开发](/agent/)** — LLM 应用、MCP 协议、工具调用、RAG、Prompt 工程
-- **[Java 开发](/java/)** — Spring Boot / Cloud、JVM 调优、并发编程
-- **[Python 开发](/python/)** — FastAPI、数据处理、自动化脚本
+- **后端开发**
+  - [Java 开发](/java/) — Spring Boot / Cloud、JVM 调优、并发编程
+  - [Python 开发](/python/) — FastAPI、数据处理、自动化脚本
 - **[前端开发](/frontend/)** — Vue / React、CSS、构建工具、TypeScript
-- **[问题记录](/troubleshooting/)** — 实际踩过的坑和排查过程
-- **[指令备忘](/cheatsheets/)** — 常用命令、配置片段速查
+- **[DevOps](/devops/)** — CI/CD、Linux、Docker & K8s、监控告警
+- **[Agent 开发](/agent/)** — LLM 应用、MCP 协议、工具调用、RAG
+- **随手记**
+  - [问题记录](/troubleshooting/) — 实际踩过的坑和排查过程
+  - [指令备忘](/cheatsheets/) — 常用命令、配置片段速查
 
 不会追求高频更新，但会尽量保证**每篇都有扎实的内容**。
 
