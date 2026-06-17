@@ -1,0 +1,14 @@
+{
+  "name": "velax-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "velax.cn — 技术博客",
+  "scripts": {
+    "dev": "vitepress dev --host 0.0.0.0",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.0"
+  }
+}
