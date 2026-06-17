@@ -5,15 +5,25 @@ export default defineConfig({
   title: 'velax',
   description: '写代码、学架构、聊技术。',
 
+  cleanUrls: true,
+  lastUpdated: true,
+
   server: {
     host: '0.0.0.0',
   },
 
   head: [
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'velax' }],
+    ['meta', { property: 'og:description', content: '写代码、学架构、聊技术。' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
 
   themeConfig: {
+    search: {
+      provider: 'local',
+    },
+
     nav: [
       { text: '首页', link: '/' },
       { text: '归档', link: '/archives' },
