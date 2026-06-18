@@ -10,8 +10,9 @@ title: 指令备忘
 
 ## 文章列表
 
+- **[Git 常用命令速查](/cheatsheets/git-commands)** — 2026-06-18
+
 ::: tip 计划中
-- Git 常用命令速查
 - Docker 命令备忘录
 - Linux 运维命令清单
 - IDE 快捷键汇总
