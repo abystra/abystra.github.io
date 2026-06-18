@@ -1,4 +1,4 @@
-name: Deploy to Server
+name: Deploy to Server + GitHub Pages
 
 on:
   push:
@@ -7,6 +7,9 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # 需要写权限才能推到 gh-pages 分支
 
     steps:
       - name: Checkout
@@ -34,3 +37,10 @@ jobs:
           SOURCE: ".vitepress/dist/"
           TARGET: "/data/www/velax.cn/"
           ARGS: "-avz --delete"
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .vitepress/dist
+          cname: velax.cn
